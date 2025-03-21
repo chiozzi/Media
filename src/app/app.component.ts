@@ -18,7 +18,6 @@ export class AppComponent {
   calcularmedia(){
     if (this.num1 !== null && this.num2 !== null && this.num3 !== null && this.num4 !== null) {
       this.media = (this.num1 + this.num2 + this.num3 + this.num4) / 4
-
    }
   }
 }
