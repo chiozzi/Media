@@ -2,8 +2,8 @@
   <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 100vh;">
     <div class="card shadow-lg" style="width: 28rem; border-radius: 15px;">
       <div class="card-body text-center">
-        <h1 class="card-title mb-3" style="color: #4A0E5E; font-weight: bold;">Média</h1>
-        <p class="card-subtitle mb-4" style="color: #4A4A4A; font-size: 1.1rem;">Insira 4 valores para calcular a média:</p>
+        <h1 class="card-title mb-3" style="color: #4A0E5E; font-weight: bold; font-size: 45px;">Média</h1>
+        <h4 class="card-subtitle mb-4 text-center" style="color: #5e5d5e; font-size: 25px;" >Insira 4 valores pra calcular a média entre eles:</h4>
 
         <div class="mb-3">
           <input type="number" class="form-control form-control-lg text-center" placeholder="Insira o 1° valor" [(ngModel)]="num1" (keydown.enter)="calcularmedia()">
@@ -18,11 +18,11 @@
           <input type="number" class="form-control form-control-lg text-center" placeholder="Insira o 4° valor" [(ngModel)]="num4" (keydown.enter)="calcularmedia()">
         </div>
 
-        <button type="button" class="btn btn-lg mb-3" style="background-color: #4A0E5E; color: white; width: 100%; font-size: 1.2rem; border-radius: 10px;" (click)="calcularmedia()">Calcular Média</button>
+        <button type="button" class="btn btn-lg mb-3" style="background-color: #4A0E5E; color: white; width: 100%; font-size: 25px; border-radius: 10px;" (click)="calcularmedia()">Calcular Média</button>
 
         <div class="result-box mt-3 p-3 rounded" style="background-color: #D9C2E1; border: 1px solid #4A0E5E;">
           <h4 class="mb-0" style="color: #4A0E5E; font-weight: bold;">A média é:</h4>
-          <p id="media" class="mt-2 mb-0" style="font-size: 1.8rem; font-weight: bold; color: black;">{{media}}</p>
+          <p id="media" class="mt-2 mb-0" style="font-size: 30px; font-weight: bold; color: black;">{{media}}</p>
         </div>
       </div>
     </div>
